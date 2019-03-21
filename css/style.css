@@ -144,8 +144,9 @@ a{
 }
 .toys h3{
 	margin-bottom: 16px;
- 
-	
+}
+.toybg{
+    background-color: #f8f8f8;
 }
 .leftpart{
     position: relative;
@@ -180,3 +181,51 @@ a{
     background-color: #fb416b;
     border-radius: 20px;
 }
+.lineside-right{
+    border-bottom: solid 2px ghostwhite;
+    width: 76px;
+    font-size: 12px;
+}
+.lineside-right a{
+    text-decoration: none;
+    color: black;
+}
+.bigline{
+ height: 2px;
+    width: 100%;
+    background-color: lightgray;
+}
+.upline{
+    width: 130px;
+    height: 2px;
+}
+.fourimg{
+    width: 70%;
+    position: relative;
+    left: 42px;
+}
+.fourpill{
+    border-radius: 25px;
+    padding: 4px 9px;
+    margin:85px;
+}
+.fourpill:hover{
+    text-decoration: none ;
+    color: black;
+}
+.fourradius{
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px -2px lightgrey;
+    transition: .5s;
+
+}
+.fourradius:hover{
+    transform: scale(1.08);
+    transition: .5s;
+}
+.secondbgimg{
+    background-image:url("../image/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;}
