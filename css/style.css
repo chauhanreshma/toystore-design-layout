@@ -228,4 +228,60 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+}
+.business-temple{
+    position: relative;
+    left: 260px;
+}
+.shortline{
+    border-bottom: solid 2px #a5c926;
+    width: 70px;
+}
+.texcolor{
+    color: #a5c926;
+}
+.texdecoret{
+   color: #6c757d;
+    line-height: 24px;
+}
+.left-title {
+    border-radius: 50%;
+    padding: 13px 15px;
+    color: white;
+    background-color: #a5c926;
+    transition: .3s;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.left-title:hover{
+    text-decoration: none;
+    color: white;
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+.leftpic{
+    border-radius: 15px;
+
+}
+.roundpic{
+    background-color:#a5c926;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding: 18px 20px;
+}
+.fontcolor{
+    font-size: 25px;
+}
+.textbox{
+    border-radius: 30px;
+    border: solid 2px gray;
+    outline: none;
+    padding-left: 20px;
+    color: darkgray;
+}
+.navimg{
+    
+}
