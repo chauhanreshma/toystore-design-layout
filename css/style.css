@@ -254,6 +254,7 @@ a{
     text-decoration: none;
     display: inline-block;
 
+
 }
 .left-title:hover{
     text-decoration: none;
@@ -283,5 +284,59 @@ a{
     color: darkgray;
 }
 .navimg{
-    
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.navimg:hover{
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+.lastradius{
+
+    text-decoration: none;
+
+}
+.lastradius:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    transform: scale(1.6);
+    text-decoration: none;
+    color: white;
+}
+.lastbtn{
+    border-radius: 50px;
+    width: 16%;
+    height: 50px;
+    padding-top: 15px;
+    color: white;
+    margin: auto;
+    transition: 0.3s;
+}
+.lastnav{
+    list-style: none;
+}
+.lastline{
+    border-bottom: solid 1px lightcyan;
+}
+.navtext{
+    font-size: 10px;
+    color: white;
+}
+.navtext a{
+    text-decoration: underline;
+}
+.navtext a:hover{
+    color: white ;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+}
+.vidio{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    left: 515px;
 }
